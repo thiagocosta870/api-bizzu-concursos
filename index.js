@@ -192,7 +192,8 @@ const editais = [
       }
     ]
   },
-  {
+
+    {
     id: 2,
     orgao: "Polícia Militar do Espírito Santo (PMES)",
     cargo: "Soldado Combatente (QPMP-C)",
@@ -200,14 +201,72 @@ const editais = [
     materias: [
       {
         nome: "Língua Portuguesa",
-        assuntos: ["Compreensão, interpretação e inferências de textos", "Tipologia e Gêneros textuais", "Norma ortográfica"]
+        assuntos: [
+          "Compreensão, interpretação e inferências de textos",
+          "Tipologia e Gêneros textuais",
+          "Variação Linguística",
+          "O processo de comunicação e as funções da linguagem",
+          "Relações semântico lexicais (metáfora, metonímia, antonímia, sinonímia, etc.)",
+          "Norma ortográfica",
+          "Morfossintaxe das classes de palavras e seus empregos",
+          "Verbo",
+          "Concordância verbal e nominal",
+          "Regência nominal e verbal",
+          "Coesão e Coerência textuais",
+          "Sintaxe (relações sintático-semânticas, período simples e composto)",
+          "Pontuação",
+          "Funções do 'que' e do 'se'",
+          "Fonética e Fonologia (som, fonema, encontros vocálicos, consonantais e dígrafos)",
+          "Formação de palavras",
+          "Uso da crase"
+        ]
       },
       {
         nome: "Raciocínio Lógico e Matemático",
-        assuntos: ["Proposições Lógicas", "Tabelas Verdade", "Argumentação Lógica", "Sequências Lógicas"]
+        assuntos: [
+          "Raciocínio Lógico: Proposições Lógicas, Tabelas Verdade e Argumentação Lógica",
+          "Raciocínio Lógico: Sequências Lógicas e Diagramas Lógicos",
+          "Raciocínio Lógico: Raciocínio Dedutivo e Indutivo",
+          "Matemática (Aritmética): Operações básicas, frações, decimais, porcentagens, razões e proporções",
+          "Matemática (Álgebra): Equações, inequações, expressões algébricas, fatoração e sistemas lineares",
+          "Matemática (Geometria): Conceitos básicos, ângulos, perímetros, áreas de figuras planas e volumes",
+          "Matemática (Trigonometria): Seno, cosseno, tangente e resolução de triângulos",
+          "Probabilidade e Estatística: Eventos, médias, medianas, moda, desvio padrão e interpretação de gráficos",
+          "Matemática Financeira: Juros simples e compostos, descontos e amortizações",
+          "Raciocínio Matemático: Resolução de problemas com análise lógica e interpretação"
+        ]
+      },
+      {
+        nome: "Geografia Geral, Brasil e do Espírito Santo",
+        assuntos: [
+          "Geral: Movimentos da Terra e organização do espaço geográfico",
+          "Geral: Paisagens mundiais, litosfera, continentes, oceanos, relevo, minerais, rochas e solos",
+          "Brasil: Regiões, divisão político-administrativa, clima, biomas, relevo e hidrografia",
+          "Brasil: Aspectos econômicos e sociais, problemas ambientais, conservação, questões atuais e geopolítica",
+          "Espírito Santo: Localização, divisão territorial, relevo e geomorfologia",
+          "Espírito Santo: Clima, vegetação, recursos hídricos e preservação dos mananciais",
+          "Espírito Santo: Aspectos econômicos, sociais, infraestrutura, transportes, turismo e patrimônio cultural",
+          "Espírito Santo: Questões ambientais e políticas de sustentabilidade"
+        ]
+      },
+      {
+        nome: "História do Brasil e do Espírito Santo",
+        assuntos: [
+          "Brasil Colonial: Descobrimento, colonização, exploração econômica, sociedade e resistências",
+          "Brasil Império: Primeiro Reinado, Período Regencial e Segundo Reinado",
+          "Brasil República: República Velha, Era Vargas, Ditadura Militar e redemocratização",
+          "História das Relações Internacionais: Guerras, alianças, tratados e organizações",
+          "Brasil: Movimentos sociais, culturais e história econômica e social",
+          "Espírito Santo: Colonização, povoamento e povos indígenas",
+          "Espírito Santo: Ciclo do Ouro e Ciclo do Café",
+          "Espírito Santo: Período Imperial, República Velha, Era Vargas e Ditadura Militar",
+          "Espírito Santo: Desenvolvimento econômico, social, movimentos culturais e governança",
+          "Espírito Santo: Preservação da memória e patrimônio cultural"
+        ]
       }
     ]
   },
+
   {
     id: 3,
     orgao: "Polícia Civil do Maranhão (PCMA)",
@@ -224,6 +283,7 @@ const editais = [
       }
     ]
   },
+  
   {
     id: 4,
     orgao: "Prefeitura de Aracaju (GMA)",
