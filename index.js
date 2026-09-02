@@ -263,7 +263,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/materias', (req, res) => {
-  const nomesDasMaterias = new Set();
+  const nomesDasMaterias = new Set([
+    "Matemática",
+    "Inglês",
+    "Estatística"
+  ]);
   
   editais.forEach(edital => {
     edital.materias.forEach(materia => {
