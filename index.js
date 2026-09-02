@@ -437,23 +437,123 @@ const editais = [
     ]
   },
 
-  
-  {
+
+{
     id: 4,
     orgao: "Prefeitura de Aracaju (GMA)",
     cargo: "Guarda Municipal de Aracaju",
     nivel: "Médio",
     materias: [
+      // --- CONHECIMENTOS COMUNS ---
       {
-        nome: "Noções de Direito Constitucional e Direitos Humanos",
-        assuntos: ["Princípios fundamentais da Constituição Federal de 1988", "Direitos e garantias fundamentais", "Uso legal, necessário, proporcional e progressivo da força"]
+        nome: "Língua Portuguesa",
+        assuntos: [
+          "Leitura, compreensão e interpretação de textos",
+          "Estruturação do texto e dos parágrafos",
+          "Articulação textual (pronomes, expressões referenciais, nexos)",
+          "Significação contextual de palavras",
+          "Emprego de tempos e modos verbais",
+          "Ortografia oficial e acentuação gráfica",
+          "Sintaxe de regência e concordância",
+          "Crase"
+        ]
+      },
+      {
+        nome: "Raciocínio Lógico",
+        assuntos: [
+          "Estruturas lógicas e lógica de argumentação",
+          "Proposições (conectivos, tabelas-verdade, equivalências e negações)",
+          "Diagramas lógicos e operações com conjuntos",
+          "Sequências lógicas (numéricas, alfabéticas e figurais)",
+          "Problemas aritméticos, geométricos e matriciais"
+        ]
+      },
+      {
+        nome: "Noções de Informática",
+        assuntos: [
+          "Conceitos básicos de sistemas operacionais (Windows e Linux)",
+          "Principais aplicativos para edição de textos, planilhas e apresentações",
+          "Conceitos de internet e intranet",
+          "Ferramentas e aplicativos de navegação e correio eletrônico",
+          "Segurança da informação (vírus, backup, firewalls)"
+        ]
+      },
+      {
+        nome: "Atualidades",
+        assuntos: [
+          "Tópicos atuais e relevantes de diversas áreas (política, economia, sociedade, educação, tecnologia e segurança pública) ocorridos nos últimos meses no Brasil e no mundo"
+        ]
+      },
+      {
+        nome: "Conhecimentos sobre Aracaju/SE",
+        assuntos: [
+          "História e patrimônio histórico do município",
+          "Formação e evolução urbana da capital",
+          "Aspectos geográficos e demográficos",
+          "Dinâmica econômica regional e a formação da Região Metropolitana de Aracaju"
+        ]
+      },
+      // --- CONHECIMENTOS ESPECÍFICOS ---
+      {
+        nome: "Noções de Direito Constitucional",
+        assuntos: [
+          "Princípios fundamentais da República",
+          "Direitos e garantias fundamentais (individuais, coletivos e sociais)",
+          "Nacionalidade e direitos políticos",
+          "Organização do Estado e dos Poderes",
+          "Artigo 144 da Constituição Federal (Segurança Pública, com foco específico nas atribuições constitucionais das Guardas Municipais)"
+        ]
+      },
+      {
+        nome: "Noções de Direito Administrativo",
+        assuntos: [
+          "Conceito, fontes e princípios da Administração Pública",
+          "Atos administrativos (conceito, requisitos, atributos e invalidação)",
+          "Agentes públicos (direitos, deveres e responsabilidades)",
+          "Poderes administrativos (poder hierárquico, disciplinar, regulamentar e de polícia)"
+        ]
       },
       {
         nome: "Noções de Direito Penal e Processo Penal",
-        assuntos: ["Aplicação da lei penal", "Crime: conceito e elementos", "Prisão em flagrante", "Direitos do preso"]
+        assuntos: [
+          "Aplicação da lei penal",
+          "Conceito de crime e seus elementos (fato típico, ilícito e culpável)",
+          "Crimes contra a pessoa e contra o patrimônio",
+          "Crimes contra a Administração Pública",
+          "Prisões (em flagrante e preventivas)"
+        ]
+      },
+      {
+        nome: "Direitos Humanos",
+        assuntos: [
+          "Conceito, evolução histórica e princípios gerais",
+          "Declaração Universal dos Direitos Humanos (DUDH)",
+          "Direitos Humanos na Constituição Federal de 1988",
+          "Proteção aos grupos vulneráveis"
+        ]
+      },
+      {
+        nome: "Legislação Extravagante",
+        assuntos: [
+          "Estatuto Geral das Guardas Municipais (Lei Federal nº 13.022/2014)",
+          "Estatuto do Desarmamento (Lei Federal nº 10.826/2003) focado no porte de armas para guardas",
+          "Lei de Abuso de Autoridade (Lei Federal nº 13.869/2019)",
+          "Estatuto da Criança e do Adolescente (ECA - Lei Federal nº 8.069/1990)",
+          "Lei Maria da Penha (Lei Federal nº 11.340/2006)"
+        ]
+      },
+      {
+        nome: "Legislação Municipal de Aracaju",
+        assuntos: [
+          "Estrutura organizacional e regime funcional da Guarda Municipal de Aracaju",
+          "Leis municipais recentes do edital relativas à SSM (Secretaria de Segurança Municipal)",
+          "Estatuto dos Servidores Públicos do Município de Aracaju (Lei Complementar nº 153/2016)"
+        ]
       }
     ]
   },
+
+
   {
     id: 5,
     orgao: "PROCON/AL",
