@@ -279,6 +279,16 @@ app.get('/editais', (req, res) => {
   res.json(editais);
 });
 
+app.get('/editais/:id', (req, res) => {
+  const idDoConcurso = parseInt(req.params.id);
+  const editalEncontrado = editais.find(edital => edital.id === idDoConcurso);
+  if (editalEncontrado) {
+    res.json(editalEncontrado); 
+  } else {
+    res.status(404).json({ erro: 'Concurso não encontrado' });
+  }
+});
+
 module.exports = app;
 
 if (require.main === module) {
