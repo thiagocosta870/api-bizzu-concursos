@@ -560,16 +560,104 @@ const editais = [
     cargo: "Fiscal de Defesa do Consumidor",
     nivel: "Superior",
     materias: [
+      // --- CONHECIMENTOS BÁSICOS (GERAIS) ---
       {
-        nome: "Direito do Consumidor",
-        assuntos: ["Natureza e fonte de suas regras", "Política Nacional de Relações de Consumo", "Direitos básicos do consumidor", "Práticas comerciais"]
+        nome: "Língua Portuguesa",
+        assuntos: [
+          "Compreensão e interpretação de textos",
+          "Tipologia e gêneros textuais",
+          "Ortografia oficial e acentuação gráfica",
+          "Emprego do sinal indicativo de crase",
+          "Regência nominal e verbal",
+          "Concordância nominal e verbal"
+        ]
+      },
+      {
+        nome: "Matemática Financeira e Raciocínio Lógico",
+        assuntos: [
+          "Estruturas lógicas e diagramas lógicos",
+          "Juros simples e compostos",
+          "Taxas de juros e rendimentos",
+          "Sistemas de amortização"
+        ]
+      },
+      {
+        nome: "Estatística",
+        assuntos: [
+          "Noções de amostragem",
+          "Medidas de tendência central (média, mediana e moda)",
+          "Representação gráfica e distribuições de frequência"
+        ]
+      },
+      {
+        nome: "Noções de Informática",
+        assuntos: [
+          "Conceitos de sistemas operacionais (Windows e Linux)",
+          "Redes de computadores, internet e computação em nuvem",
+          "Segurança da informação (vírus, backup e proteção)",
+          "Ferramentas de escritório (edição de textos e planilhas)"
+        ]
+      },
+      {
+        nome: "Conhecimentos sobre o Estado de Alagoas",
+        assuntos: [
+          "Aspectos históricos e culturais de Alagoas",
+          "Aspectos geográficos e ambientais do estado",
+          "Aspectos econômicos e sociais de Alagoas"
+        ]
+      },
+      // --- CONHECIMENTOS ESPECÍFICOS ---
+      {
+        nome: "Direito do Consumidor (CDC)",
+        assuntos: [
+          "Disposições gerais e princípios do Código de Defesa do Consumidor",
+          "Direitos básicos do consumidor",
+          "Proteção à saúde e segurança",
+          "Responsabilidade pelo fato e pelo vício do produto ou serviço",
+          "Práticas comerciais e proteção contratual",
+          "Sanções administrativas e infrações penais"
+        ]
       },
       {
         nome: "Educação para o Consumo",
-        assuntos: ["Consumo sustentável", "Prevenção e tratamento do superendividamento", "Cidadania e consumo"]
+        assuntos: [
+          "Consumo sustentável e consciente",
+          "Prevenção e tratamento do superendividamento",
+          "Cidadania e consumo",
+          "Transparência e direito à informação"
+        ]
+      },
+      {
+        nome: "Noções de Metrologia e Fiscalização de Produtos",
+        assuntos: [
+          "Sistema de pesos e medidas",
+          "Normas para embalagens e rotulagem",
+          "Competências do INMETRO e do IPEM",
+          "Procedimentos de verificação, fiscalização e certificação"
+        ]
+      },
+      {
+        nome: "Atendimento ao Público e Mediação de Conflitos",
+        assuntos: [
+          "Técnicas de atendimento ao público e postura profissional",
+          "Comunicação eficaz e assertiva",
+          "Resolução e mediação de conflitos",
+          "Técnicas de conciliação nas relações de consumo"
+        ]
+      },
+      {
+        nome: "Noções de Microeconomia",
+        assuntos: [
+          "Estruturas de mercado",
+          "Teoria da oferta e da demanda",
+          "Comportamento do consumidor e equilíbrio de mercado",
+          "Concorrência e regulação de mercados"
+        ]
       }
     ]
   }
+
+  
 ];
 
 app.get('/', (req, res) => {
